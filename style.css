@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    background-color: black;
+    background-image: url(./img/background\ image.png);
+    position: relative;
+    color: white;
+}
+
+.heading{
+    font-size: 3.2rem;
+}
+
+.text{
+    color: #75bfff;
+}
+
+.box{
+    position: absolute;
+    top: 160px;
+    left: 150px;
+}
+
+.name{
+    font-size: 3.8rem;
+    letter-spacing: 2px;
+}
+
+.field{
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.features{
+    height: 80vh;
+    background-color: #94cdff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details{
+    width: 1000px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.profile{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: -20px 0 20px 0;
+}
+
+.greet{
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #17456a;
+    margin-bottom: 20px;
+}
+
+.info{
+    font-size: 1.65rem;
+    text-align: center;
+    color: #163956;
+    font-weight: 300;
+}
+
+.design{
+    font-size: 80px;
+    font-weight: 400;
+    color: white;
+    margin-top: -20px;
+    margin-bottom: -40px;
+}
+
+.skills{
+    height: 100vh;
+    background-color: #163956;
+    color: #81bef3;
+}
+.grid-container{
+    height: 80vh;
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
+    grid-template-columns: 1fr 3fr;
+    gap: 40px;
+   margin-left: 8rem;
+   margin-bottom:20rem;
+}
+
+.list{
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 3.7rem;
+    color: #a6d7ff;
+    grid-column: span 2;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.gridimg{
+    height: 15rem;
+    width: 25rem;
+}
+
+.imginfo{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 1rem;
+}
+
+.imginfo ul{
+    margin-bottom: 1rem;
+}
+
+.highlight{
+     font-size: 1.4rem;
+     color: #dadb71;
+}
+
+.contact{
+    height: 30vh;
+    background-color: #152633;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9adcff;
+    font-size: 30px;
+    gap: 50px;
+}
+
+.contact-icon{
+    height: 30px;
+}
+
+.linkedin{
+     text-decoration: none;
+     color: #9adcff;
+}
+
+.linked:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+@media (min-width:800px ) and (max-width:1200px) {
+
+.grid-container{
+    height: 140vh;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin-left: 0;
+}
+
+.skills{
+    height:150vh;
+}
+
+.imginfo{
+    margin-left: 6rem;
+}
+
+}
+
+@media (min-width:450px ) and (max-width:800px) {
+    .grid-container{
+        height: 150vh;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           margin-left: 0;
+    }
+    
+    
+.skills{
+    height:160vh;
+}
+
+.box{
+    left: 60px;
+}
+
+.info{
+    font-size: 1.35rem;
+    width: 60%;
+    margin-left: -40px;
+}
+
+.main{
+    height: 70vh;
+}
+.heading{
+    font-size: 2.2rem;
+}
+
+.profile{
+    margin: 33px 17px 8px -14px;
+}
+.greet{
+    margin: 7px 0 26px -21px;
+}
+
+.features{
+    height: 100vh;
+}
+
+.design{
+    margin: 0px 0 -20px -40px;
+}
+
+.gridimg {
+   aspect-ratio: 2 / 3;
+}
+
+.imginfo{
+    margin-left: 1rem;
+}
+
+.contact{
+    flex-direction: column;
+}
+
+}
+
+
+@media (min-width:320px ) and (max-width:450px) {
+    .grid-container{
+        height: 170vh;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           margin-left: 0;
+    }
+    
+    
+.skills{
+    height:170vh;
+}
+
+.box{
+    left: 60px;
+}
+
+.info{
+    font-size: 1.35rem;
+    width: 60%;
+    margin-left: -40px;
+}
+
+.main{
+    height: 70vh;
+}
+.heading{
+    font-size: 2.2rem;
+}
+
+.profile{
+    margin: 33px 17px 8px -14px;
+}
+.greet{
+    margin: 7px 0 26px -21px;
+}
+
+.features{
+    height: 115vh;
+}
+
+.design{
+    margin: 0px 0 -20px -40px;
+}
+
+.gridimg {
+    height: 12rem;
+    width: 19rem;
+}
+
+.imginfo{
+    margin-left: 1rem;
+}
+
+.contact{
+    flex-direction: column;
+    gap: 13px;
+}
+
+}
